@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8/>
+    <title> {% if page.tilte %} {{ page.title }} | {% endif %} nolearning, coder </title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+ <body>
+    <div id="main">
+        <header>
+            <a href="/"><h1> nolearning's blog </h1> </a>
+            <div class="rss">
+                <a href="http://nolearning.github.com/atom.xml">
+                    <img src="img/rss.png" alt="Subscribe to RSS Feed" />
+                </a>
+            </div>
+        </header>
+
+        {{ content }}
+
+        <footer>
+            <p>@copy; nolearning's blog 2012 | All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+

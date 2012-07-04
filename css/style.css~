@@ -1,0 +1,98 @@
+body {
+    font: 15px/1.5 verdana, helvtica-neue, helvetica, arial, san-serif;
+    background: black;
+    color: #ececec;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ececec;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.4)
+}
+
+header {
+    padding: 20px 15px;
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 0;
+    color: burlyWood;
+}
+
+header .rss {
+    float: right;
+    margin: -10 30px;
+    width: 30px;
+}
+
+nav ul, ul.posts {
+    list-style-type: none;
+}
+
+nav li a {
+    float: left;
+    margin: 5px;
+}
+
+nav {
+    overflow:auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+ul.posts li {
+    margin: 0 30px;
+    color: antiqueWhite;
+}
+
+ul.posts a {
+    color: cadetBlue;
+    font-size: 1.2em;
+}
+
+ul.posts a:hover {
+    color: wheat;
+}
+
+.title {
+    color: cadetBlue;
+}
+
+#post {
+    margin: 0 0 0 10px;
+}
+
+#related h2 {
+    margin: 30px 0 10px 0;
+    color: silver;
+}
+
+footer {
+    font-size: 0.65em;
+    text-align: center;
+}
+
