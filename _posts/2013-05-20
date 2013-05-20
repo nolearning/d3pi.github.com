@@ -1,0 +1,6 @@
+#Using Android With Mac
+
+1.Connecting Via USB
+MTP protocol is not supported on Mac in default. In order to transfer files between mac and android device, we need to install [Android File Transfer](http://www.android.com/filetransfer/).
+
+2.
