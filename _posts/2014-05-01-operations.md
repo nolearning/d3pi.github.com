@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Operations Specification
+tags:[markdown]
 ---
 #运维规范
 
