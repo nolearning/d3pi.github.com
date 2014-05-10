@@ -1,3 +1,7 @@
+---
+layout: post
+title: Operations Specification
+---
 #运维规范
 
 ##术语
