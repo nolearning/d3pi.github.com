@@ -1,3 +1,7 @@
+---
+layout: post
+title: Linux Build tools And library
+---
 this depend on some library：
 
 * binutils
