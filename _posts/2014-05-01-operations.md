@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Operations Specification
-tags:[jekyll,markdown]
 ---
 #运维规范
 
