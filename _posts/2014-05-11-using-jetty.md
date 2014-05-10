@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Jetty and Eclipse
 ---
 
@@ -30,3 +30,4 @@ Jetty in use
 * [Embedding Jetty 7 & 8](http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty)
 * [Jetty WTP Plugin](http://wiki.eclipse.org/Jetty_WTP_Plugin)
 * [Hello world with Jetty + Maven + Eclipse WTP tutorial](http://devblog.virtage.com/2013/02/hello-world-with-jetty-maven-eclipse-wtp-tutorial/)
+* [Integration with Maven WAR Plugin](https://docs.sonatype.org/display/M2ECLIPSE/Integration+with+Maven+WAR+Plugin)
