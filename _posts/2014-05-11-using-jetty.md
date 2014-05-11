@@ -46,5 +46,5 @@ JNDI enable in run configurations->Jetty WebApp->***App->Jetty Tab->ShowAdvanced
 Database in Jetty
 -------------------
 Add jetty_env.xml to WEB_INF dir, then write database setting
-[Datasource Examples](http://www.eclipse.org/jetty/documentation/current/jndi-datasource-examples.html)
-[Configure JNDI Datasource](http://wiki.eclipse.org/Jetty/Howto/Configure_JNDI_Datasource)
+* [Datasource Examples](http://www.eclipse.org/jetty/documentation/current/jndi-datasource-examples.html)
+* [Configure JNDI Datasource](http://wiki.eclipse.org/Jetty/Howto/Configure_JNDI_Datasource)
