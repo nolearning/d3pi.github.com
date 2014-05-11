@@ -49,3 +49,13 @@ Add jetty_env.xml to WEB_INF dir, then write database setting
 
 * [Datasource Examples](http://www.eclipse.org/jetty/documentation/current/jndi-datasource-examples.html)
 * [Configure JNDI Datasource](http://wiki.eclipse.org/Jetty/Howto/Configure_JNDI_Datasource)
+
+then write some code in servlet
+
+    try {
+        ic = new InitialContext(); 
+        DataSource ds = (DataSource)ic.lookup("jdbc/DSTest");
+        Connection conn = ds.getConnection();
+        Statement stm = conn.createStatement();
+        ResultSet rs = stm.executeQuery("some sql");
+    } catch
