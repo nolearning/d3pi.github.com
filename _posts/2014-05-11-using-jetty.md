@@ -30,4 +30,21 @@ Jetty in use
 * [Embedding Jetty 7 & 8](http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty)
 * [Jetty WTP Plugin](http://wiki.eclipse.org/Jetty_WTP_Plugin)
 * [Hello world with Jetty + Maven + Eclipse WTP tutorial](http://devblog.virtage.com/2013/02/hello-world-with-jetty-maven-eclipse-wtp-tutorial/)
+
+JDNI
+-----------
 * [Integration with Maven WAR Plugin](https://docs.sonatype.org/display/M2ECLIPSE/Integration+with+Maven+WAR+Plugin)
+* [Configuring JNDI](http://www.eclipse.org/jetty/documentation/current/jndi.html)
+* [JNDI in Jetty](http://wiki.eclipse.org/Jetty/Feature/JNDI)
+* [Configuring JNDI DataSource for Database Connection Pooling in Tomcat](http://www.codejava.net/servers/tomcat/configuring-jndi-datasource-for-database-connection-pooling-in-tomcat)
+* [Tomcat DataSource JNDI Example for Servlet Web Application](http://www.journaldev.com/2513/tomcat-datasource-jndi-example-for-servlet-web-application)
+
+run_jetty_run
+---------------
+JNDI enable in run configurations->Jetty WebApp->***App->Jetty Tab->ShowAdvanced Options->Other configs->JNDI support
+
+Database in Jetty
+-------------------
+Add jetty_env.xml to WEB_INF dir, then write database setting
+[Datasource Examples](http://www.eclipse.org/jetty/documentation/current/jndi-datasource-examples.html)
+[Configure JNDI Datasource](http://wiki.eclipse.org/Jetty/Howto/Configure_JNDI_Datasource)
