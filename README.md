@@ -1,2 +1,2 @@
-nolearning.github.com
+scuzyt.github.com
 =====================
